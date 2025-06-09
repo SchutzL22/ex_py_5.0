@@ -18,10 +18,15 @@ print(f"Listapessoas[3:3] = {Listapessoas[3:3]}")
 print(f"Listapessoas[3:] = {Listapessoas[3:]}")
 print(f"Listapessoas[:3] = {Listapessoas[:3]}")
 print(f"Listapessoas[3:2] = {Listapessoas[3:2]}")
+print(f"Listapessoas[::2] = {Listapessoas[::2]}")
 print(f"O tamanho da minha lista é de: {len(Listapessoas)}")
 
 Listapessoas.append("Pessoa7")
 
+print(f"Listapessoas = {Listapessoas}")
+print(f"O tamanho da minha lista é de: {len(Listapessoas)}")
+
+Listapessoas.insert(1, "Pessoa8")
 print(f"Listapessoas = {Listapessoas}")
 print(f"O tamanho da minha lista é de: {len(Listapessoas)}")
 
@@ -30,7 +35,7 @@ Listapessoas.pop(1)
 print(f"Listapessoas = {Listapessoas}")
 print(f"O tamanho da minha lista é de: {len(Listapessoas)}")
 
-Listapessoas.reverse
+Listapessoas.reverse()
 
 print(f"Listapessoas = {Listapessoas}")
 print(f"O tamanho da minha lista é de: {len(Listapessoas)}")
